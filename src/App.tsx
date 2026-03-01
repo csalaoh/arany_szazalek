@@ -120,7 +120,7 @@ export default function App() {
   if (authStage === 'login') return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4 text-white font-sans text-center">
       <div className="bg-slate-900 p-10 rounded-[2.5rem] w-full max-w-sm border-t-4 border-indigo-600 shadow-2xl">
-        <h1 className="text-3xl font-black mb-8 italic uppercase tracking-tighter">MathQuest 6</h1>
+        <h1 className="text-3xl font-black mb-8 italic uppercase tracking-tighter">Arány, százalék</h1>
         <div className="space-y-4">
           <input type="text" placeholder="Név" className="w-full p-4 bg-slate-800 rounded-2xl outline-none focus:ring-2 ring-indigo-500 text-white" value={loginName} onChange={e => setLoginName(e.target.value)} />
           <input type="password" placeholder="PIN" className="w-full p-4 bg-slate-800 rounded-2xl text-center text-2xl tracking-widest outline-none focus:ring-2 ring-indigo-500 text-white" value={loginPin} onChange={e => setLoginPin(e.target.value)} />
