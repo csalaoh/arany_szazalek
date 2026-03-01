@@ -181,7 +181,7 @@ export default function App() {
       <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4 text-white font-sans">
         <div className="bg-slate-900 p-10 rounded-[2.5rem] w-full max-w-sm border-t-4 border-indigo-600 shadow-2xl">
           <h1 className="text-3xl font-black mb-8 italic uppercase tracking-tighter text-center">
-            MathQuest 6
+            Arány, százalék
           </h1>
           <div className="space-y-4">
             <input
